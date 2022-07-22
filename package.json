@@ -1,0 +1,31 @@
+{
+  "name": "pspdfkit-web-example-nuxtjs",
+  "version": "2022.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "postinstall": "node scripts/copy-pspdfkit-files"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "pspdfkit": "2022.3.1",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "webpack": "^4.46.0"
+  },
+  "overrides": {
+    "nth-check": "^2.0.1",
+    "glob-parent": "^6.0.2",
+    "node-fetch": "^2.6.7",
+    "nanoid": "^3.1.31",
+    "parse-path": "^5.0.0"
+  }
+}
